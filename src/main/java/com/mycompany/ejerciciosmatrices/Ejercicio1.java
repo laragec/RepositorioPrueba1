@@ -15,9 +15,10 @@ public class Ejercicio1 {
                 System.out.print(alfabeto[num]);
             }
             if (num>25){
-                JOptionPane.showMessageDialog(null, "Inserte un número entre 0 y 25");//SXSxxdxdfcxxvfd
+                JOptionPane.showMessageDialog(null, "Inserte un número entre 0 y 25");
             }
         }while(num>=0);
         JOptionPane.showMessageDialog(null, "Fin");
+        JOptionPane.showMessageDialog(null, "¡Gracias!");
     } 
 }
